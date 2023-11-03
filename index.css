@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.LoginRegisterForms input,
+.LoginRegisterForms select{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.LoginRegisterForms input[type= 'file']{
+    border: none;
+}
+.LoginRegisterForms button{
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    background: #C81B69;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.LoginRegisterForms a{
+    text-decoration: none;
+    color: #C81B69
+}
+.LoginRegisterForms h1{
+    color: #C81B69;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.LoginRegisterForms img{
+    width: 120px;
+    display: block;
+    margin: auto;
+    /* border-radius: 100%; */
+}
+.LoginRegisterForms label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.LoginRegisterForms .grouped{
+    display: flex;
+    gap: 10px;
+}
+
+.FormInputs{
+    display: flex;
+    justify-content: flex-end;
+}
+.LoginRegisterForms{
+    width: 30%;
+    margin: 50px auto;
+}
+.links a{
+    color: rgb(99, 99, 99);
+}
+.div-new{
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.LoginContainer button:first-child{
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    border: none;
+    border: 1px solid rgb(73, 73, 73);
+    background: transparent;
+    border-radius: 20px;
+    color: black;
+}
+.center-text {
+  text-align: center;
+}
+#studentbutton{
+  background-color: black;
+}
+#custodianbutton{
+  background-color: black;
+}
